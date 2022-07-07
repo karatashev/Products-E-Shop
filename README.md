@@ -1,4 +1,4 @@
-Your project should contain the following components:
+The project contains the following components:
 ❏ Navbar
 ❏ Footer
 ❏ CardContainer
@@ -8,21 +8,19 @@ Your project should contain the following components:
 ❏ HomePage
 ❏ Login
 
-Card component is created for you, you should iterate through the library.js array and for each iteration will show a separate Card.js component in CardContainer Component
+we iterate through the library.js array and for each iteration it renders a separate Card.js component in CardContainer Component
 
-CardDetail component is created for you , you can put it to app component to see how it looks
+React Router is implemented, and the Navbar & Footer are shown on every route, but CardsCont,CardDetail, HomePage and Login page are shown on their separate routes.
 
-Create a Router, and make the Navbar & Footer show on every route, but CardsCont,CardDetail, HomePage and Login page should show on their separate routes.
+- Homepage is on the / - route
+- Login is on the /login - route
+- CardsCont is on the /products - route
+- CardDetails is on the /products/ details - route
 
-- Homepage should show on the / - route
-- Login should show on the /login - route
-- CardsCont should show on the /products - route
-- CardDetails should show on the /products/ details - route
+Card.js component is a Link so it lead to the route - '/Product/ CURRENTCARD_ID /'. By clicking on each of the cards the url is changing to the current id of the product - '/products/2' for example, but will still show the same CardDetail component with a title.
 
-Modify the Card.js component to be a Link so it lead to the route - '/Product/ CURRENTCARD_ID /'. When you do that, clicking on each of the cards should change the url up top to '/products/2' for example, but will still show the same CardDetail component with a title.
+CardDetail componentis showing the current card image, title, stars, description like shown on the screenshot.
 
-Modify the CardDetail component to show the current card image, title, stars, description like shown on the screenshot.
+The Banner componentis called inside CardDetail and it show the title which is dynamically changed when we change the the cards.
 
-Additionally, show a Banner component (which is created but you should modify) which will be called inside CardDetail and should look like the screenshot. The Banner component should have a title, which will change for each card.
-
-in NAVBAR, each link should have active class when you are on their route, check Screenshots
+In the Navbar component, each link has an active class when you are on that route.
