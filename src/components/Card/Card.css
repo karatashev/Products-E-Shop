@@ -1,0 +1,8 @@
+.Card:hover {
+  border: 1px solid black;
+}
+
+.Card {
+  text-align: center;
+  padding: 50px;
+}

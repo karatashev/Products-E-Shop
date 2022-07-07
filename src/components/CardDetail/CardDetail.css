@@ -1,0 +1,40 @@
+.CardDetail .info-cont {
+  margin-top: 40px;
+}
+.CardDetail .price {
+  font-weight: bold;
+  font-size: 48px;
+  color: #f95e6d;
+  margin-bottom: 10px;
+}
+.CardDetail .title {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.CardDetail p {
+  margin-top: 20px;
+}
+.CardDetail .button {
+  line-height: 40px;
+  padding: 0 50px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #f95e6d;
+  border: 1px solid #f95e6d;
+  transition: all 0.3s ease-out;
+}
+.CardDetail .button:hover {
+  background-color: white;
+  color: #f95e6d;
+}
+
+.CardDetail .container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}

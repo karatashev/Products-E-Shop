@@ -1,0 +1,22 @@
+.Banner {
+  background-image: url("//cdn.shopify.com/s/files/1/1824/4681/t/3/assets/breadcrumb_image_2.jpg?0");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Banner h1 {
+  margin: 0;
+  font-weight: 700;
+  padding: 0 15px;
+  color: #fff;
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 60px;
+}
