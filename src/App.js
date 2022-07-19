@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./components/HomePage/HomePage"
 import Login from "./components/Login/Login"
+import Posts from "./components/Posts/Posts";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/products/:ProductId" element={<CardDetail />}/>
       </Routes>
       <Footer />
+    {/* <Posts /> */}
     </div>
   );
 }
